@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication", "Authentication\Authentication.csproj", "{91A0A821-D01D-47BF-AC57-4F9026658392}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization", "Authorization\Authorization.csproj", "{9E93D544-DB97-412C-A921-3F90498CA94C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{91A0A821-D01D-47BF-AC57-4F9026658392}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91A0A821-D01D-47BF-AC57-4F9026658392}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91A0A821-D01D-47BF-AC57-4F9026658392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E93D544-DB97-412C-A921-3F90498CA94C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E93D544-DB97-412C-A921-3F90498CA94C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E93D544-DB97-412C-A921-3F90498CA94C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E93D544-DB97-412C-A921-3F90498CA94C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
