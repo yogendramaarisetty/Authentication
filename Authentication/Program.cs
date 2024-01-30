@@ -48,7 +48,7 @@ app.MapGet("/login", async (HttpContext ctx) =>
 	claims.Add(new Claim("usr", "yogi"));
 	var identity = new ClaimsIdentity(claims, "cookie");
 	var user = new ClaimsPrincipal(identity);
-	await ctx.SignInAsync("cookie", new ClaimsPrincipal());
+	await ctx.SignInAsync("cookie", user);
 	
 	return "ok";
 });
